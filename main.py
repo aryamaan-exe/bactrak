@@ -15,7 +15,7 @@ payload = {
 headers = {
     "accept": "application/json",
     "content-type": "application/json",
-    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGNhZTIzZTQtNjJhMS00Y2VmLTkxMGEtNWIzZTZkZDgyM2IzIiwidHlwZSI6InNhbmRib3hfYXBpX3Rva2VuIn0.ehQ3l8JvrYunvEXM4GF_DXK22XOWdAQ-g2Hb8N3sN-c"
+    "authorization": "Bearer "
 }
 
 response = requests.post(url, json=payload, headers=headers)
